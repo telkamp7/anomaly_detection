@@ -41,7 +41,7 @@ clean:
 ## Make Dataset
 .PHONY: data
 data: requirements
-	$(PYTHON_INTERPRETER) src/data/make_dataset.py
+	$(PYTHON_INTERPRETER) anomaly_detection/data/make_dataset.py ai-serving-grid-stability data/raw
 
 #################################################################################
 # Documentation RULES                                                           #
