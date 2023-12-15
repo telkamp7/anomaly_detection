@@ -1,0 +1,2 @@
+from anomaly_detection.models.model import MyNeuralNet
+from anomaly_detection.predict_model import predict
